@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: podinfo
-  namespace: podinfooo
+  namespace: podi
 spec:
   interval: 10s
   url: https://stefanprodan.github.io/podinfo
